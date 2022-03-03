@@ -1,0 +1,59 @@
+@import "basevalues";
+
+// Formats Horizontal
+$WidthHorizontal: 1721px;
+$HeightHorizontal: 1217px;
+
+// Formats Vertical
+$WidthVertical: 1217px;
+$HeightVertical: 1721px;
+
+.horizontal-poster {
+    width: $WidthHorizontal / 4;
+    height: $HeightHorizontal / 4;
+}
+
+.vertical-poster {
+    width: $WidthVertical / 4;
+    height: $HeightVertical / 4;
+}
+
+.film-festival-one {
+    background: url('../galleries/film-festival/Poster1.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.film-festival-seven {
+    background: url('../galleries/film-festival/Poster7.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+@media (min-width: 1024px) {
+    .horizontal-poster {
+        width: $WidthHorizontal / 3.5;
+        height: $HeightHorizontal / 3.5;
+    }
+
+    .vertical-poster {
+        width: $WidthVertical / 3.5;
+        height: $HeightVertical / 3.5;
+    }
+}
+
+@media (min-width: 1366px) {
+    .horizontal-poster {
+        width: $WidthHorizontal / 2.5;
+        height: $HeightHorizontal / 2.5;
+    }
+
+    .vertical-poster {
+        width: $WidthVertical / 2.5;
+        height: $HeightVertical / 2.5;
+    }
+}

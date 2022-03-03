@@ -53,8 +53,22 @@ html, body {
     transform: translate(0, 0);
 }
 
+.brand-project {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .light-line-big{
     background: url('../assets/brand/light-line-big.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blue-big {
+    background: url('../assets/brand/blue-big.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -263,6 +277,79 @@ html, body {
 
 .hideBottom {
     bottom: -50% !important;
+}
+
+// Project Case
+.project-case {
+    display: block;
+    width: 100%;
+    min-height: 100vh !important;
+
+    background: url('../galleries/film-festival/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .left-select, .right-select {
+        display: block;
+        width: 10%;
+        border: 3px dashed $black;
+
+        font-size: 3.5em;
+        font-weight: bold;
+        text-align: center;
+        padding: 3em 0.8em;
+
+        cursor: pointer;
+        z-index: 20;
+    }
+
+    .left-select {
+        text-align: right;
+
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(-20%,-50%);
+    }
+
+    .right-select {
+        text-align: left;
+
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(20%, -50%);
+    }
+
+    .frame-case {
+        display: block;
+        width: 100%;
+
+        .pic-item {
+            display: block;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            border: 6px solid $black;
+            background: $white;
+            background-color: $black;
+            margin: auto;
+            // padding: 20px 20px;
+
+            box-shadow: 0 0 8px $black;
+            cursor: pointer;
+
+            opacity: 0;
+        }
+
+        .active {
+            opacity: 1;
+        }
+    }
 }
 
 // Under Ipad Resolution
