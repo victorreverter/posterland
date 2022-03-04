@@ -1,6 +1,5 @@
 @import "normalize", "meyer", "basevalues";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 // Scrollbar
@@ -328,6 +327,7 @@ html, body {
 
         .pic-item {
             display: block;
+            // display: none;
             
             position: absolute;
             top: 50%;
@@ -343,12 +343,13 @@ html, body {
             box-shadow: 0 0 8px $black;
             cursor: pointer;
 
+            transition: 0.6s;
             opacity: 0;
         }
 
-        .active {
-            opacity: 1;
-        }
+        // .active {
+        //     opacity: 1;
+        // }
     }
 }
 
