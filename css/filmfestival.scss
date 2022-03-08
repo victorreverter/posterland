@@ -18,6 +18,14 @@ $HeightVertical: 1721px;
     height: $HeightVertical / 4;
 }
 
+.project-BG {
+    background: url('../galleries/film-festival/Background.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
 .film-festival-1 {
     background: url('../galleries/film-festival/Poster1.jpg') !important;
     background-color: $black !important;

@@ -1,5 +1,7 @@
-// HOME animation
+HEAD_ELEM = document.getElementsByTagName('head');
+FRAME_CASE = document.querySelector('#frame_case');
 
+// HOME animation
 TOP_LEAVES = document.querySelector('#top_leaves');
 LEFT_LEAF = document.querySelector('#left_leaf');
 RIGHT_LEAF = document.querySelector('#right_leaf');
@@ -36,19 +38,27 @@ setTimeout(() => {
 
 // HOME to SLIDE
 
-FILM_FESTIVAL_FACE = document.querySelector('#film_festival_face');
+// FILM_FESTIVAL_FACE = document.querySelector('#film_festival_face');
 CLOSE_PROJECT = document.querySelector('#close_project');
 
 // CLOSE Icon
 CLOSE_PROJECT.addEventListener('click', function() {
     // alert('cocoa');
     PROJECT_CASE.classList.remove('showSLIDE');
+    FRAME_CASE.innerHTML = '';
+    // console.log(HEAD_ELEM);
+    // console.log(HEAD_ELEM[0].lastChild);
+
+    HEAD_ELEM[0].removeChild(HEAD_ELEM[0].lastChild);
+
+    //Remove BG Class
+    PROJECT_CASE.classList.remove('project-BG');
 }, false);
 
 // FILM FESTIVAL PROJECT
-FILM_FESTIVAL_FACE.addEventListener('click', function() {
-    PROJECT_CASE.classList.add('showSLIDE');
-}, false);
+// FILM_FESTIVAL_FACE.addEventListener('click', function() {
+//     PROJECT_CASE.classList.add('showSLIDE');
+// }, false);
 
 // ==========================================================================
 
