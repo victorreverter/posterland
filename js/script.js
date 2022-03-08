@@ -1,4 +1,4 @@
-// Animate Home
+// HOME animation
 
 TOP_LEAVES = document.querySelector('#top_leaves');
 LEFT_LEAF = document.querySelector('#left_leaf');
@@ -6,6 +6,7 @@ RIGHT_LEAF = document.querySelector('#right_leaf');
 HOME_SOFA = document.querySelector('#home_sofa');
 
 PROJECT_CONTENT = document.querySelector('#project_content');
+PROJECT_CASE = document.querySelector('#project_case');
 
 setTimeout(() => {
     TOP_LEAVES.classList.remove('hideLeft');
@@ -30,6 +31,26 @@ setTimeout(() => {
 setTimeout(() => {
     PROJECT_CONTENT.classList.add('showElem'); 
 }, 1500);
+
+// ==========================================================================
+
+// HOME to SLIDE
+
+FILM_FESTIVAL_FACE = document.querySelector('#film_festival_face');
+CLOSE_PROJECT = document.querySelector('#close_project');
+
+// CLOSE Icon
+CLOSE_PROJECT.addEventListener('click', function() {
+    // alert('cocoa');
+    PROJECT_CASE.classList.remove('showSLIDE');
+}, false);
+
+// FILM FESTIVAL PROJECT
+FILM_FESTIVAL_FACE.addEventListener('click', function() {
+    PROJECT_CASE.classList.add('showSLIDE');
+}, false);
+
+// ==========================================================================
 
 // SLIDE animation
 
