@@ -1,0 +1,159 @@
+@import "basevalues";
+
+// Formats Horizontal
+// $WidthHorizontal: 1721px;
+// $HeightHorizontal: 1217px;
+
+// Formats Vertical
+$WidthVertical: 587px;
+$HeightVertical: 832px;
+
+// .horizontal-poster {
+//     width: $WidthHorizontal / 4;
+//     height: $HeightHorizontal / 4;
+// }
+
+.vertical-poster {
+    width: $WidthVertical / 2;
+    height: $HeightVertical / 2;
+}
+
+.project-BG {
+    background: url('../galleries/laliga22/Background.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
+.laliga22-1 {
+    background: url('../galleries/laliga22/Athletic.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-2 {
+    background: url('../galleries/laliga22/Atletico.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-3 {
+    background: url('../galleries/laliga22/Barcelona.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-4 {
+    background: url('../galleries/laliga22/Betis.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-5 {
+    background: url('../galleries/laliga22/Celta.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-6 {
+    background: url('../galleries/laliga22/Espanyol.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-7 {
+    background: url('../galleries/laliga22/LaReal.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-8 {
+    background: url('../galleries/laliga22/Rayo.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-9 {
+    background: url('../galleries/laliga22/Real.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-10 {
+    background: url('../galleries/laliga22/Sevilla.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-11 {
+    background: url('../galleries/laliga22/Valencia.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.laliga22-12 {
+    background: url('../galleries/laliga22/Villareal.jpg') !important;
+    background-color: $black !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+@media (min-width: 1024px) {
+    // .horizontal-poster {
+    //     width: $WidthHorizontal / 3.5;
+    //     height: $HeightHorizontal / 3.5;
+    // }
+
+    .vertical-poster {
+        width: $WidthVertical / 2;
+        height: $HeightVertical / 2;
+    }
+}
+
+@media (min-width: 1366px) {
+    // .horizontal-poster {
+    //     width: $WidthHorizontal / 2.5;
+    //     height: $HeightHorizontal / 2.5;
+    // }
+
+    .vertical-poster {
+        width: $WidthVertical / 1.2;
+        height: $HeightVertical / 1.2;
+    }
+}
+
+@media (min-height: 1366px) {
+    // .horizontal-poster {
+    //     width: $WidthHorizontal / 2.5;
+    //     height: $HeightHorizontal / 2.5;
+    // }
+
+    .vertical-poster {
+        width: $WidthVertical / 1.2;
+        height: $HeightVertical / 1.2;
+    }
+}
