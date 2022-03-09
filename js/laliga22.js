@@ -32,7 +32,7 @@ LALIGA22_FACE.addEventListener('click', function() {
     FRAME_CASE.innerHTML += '<div class="pic-item vertical-poster laliga22-11"></div>';
     FRAME_CASE.innerHTML += '<div class="pic-item vertical-poster laliga22-12"></div>';
 
-    FRAME_CASE.innerHTML += '<h2 class="project-title title-light-mode">Laliga 21|22<span>(2021)</span></h2>';
+    FRAME_CASE.innerHTML += '<h2 class="project-title title-light-mode">Laliga 21|22 <span>(2021)</span></h2>';
 
     PROJECT_CASE.classList.add('showSLIDE');
 }, false);
