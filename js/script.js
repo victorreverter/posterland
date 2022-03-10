@@ -6,6 +6,7 @@ TOP_LEAVES = document.querySelector('#top_leaves');
 LEFT_LEAF = document.querySelector('#left_leaf');
 RIGHT_LEAF = document.querySelector('#right_leaf');
 HOME_SOFA = document.querySelector('#home_sofa');
+MSSG_CLICK_HOME = document.querySelector('#message_click_home');
 
 PROJECT_CONTENT = document.querySelector('#project_content');
 PROJECT_CASE = document.querySelector('#project_case');
@@ -31,6 +32,7 @@ setTimeout(() => {
 }, 800);
 
 setTimeout(() => {
+    MSSG_CLICK_HOME.classList.remove('hideBottom');
     PROJECT_CONTENT.classList.add('showElem'); 
 }, 1500);
 
